@@ -36,9 +36,9 @@ Commands:
     
 Cvars:
 
-  sm_steamgroup_enable
-  sm_discord_enable 
-  sm_owner_enable 
-  sm_ts3_enable 
-  sm_donate_enable 
-  sm_informations_version
+    sm_steamgroup_enable
+    sm_discord_enable 
+    sm_owner_enable 
+    sm_ts3_enable 
+    sm_donate_enable 
+    sm_informations_version
