@@ -4,7 +4,7 @@
   
   +Translate support
 
-# Commands:
+Commands:
 
     For steam group:
   
@@ -34,7 +34,7 @@
     sm_teamspeak
     sm_ts
     
-# Cvars 
+Cvars:
 
   sm_steamgroup_enable
   sm_discord_enable 
