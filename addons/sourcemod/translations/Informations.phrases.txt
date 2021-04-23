@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"Steam"
+	{
+		"en"	"{yellow}>>> {grey2}Our Steam group: {yellow}https://discord.gg/FYMx9AR"
+	}
+	
+	"Discord"
+	{
+		"en"	"{yellow}>>> {grey2}Our discord server: {yellow}https://discord.gg/FYMx9AR"
+	}
+	
+	"Owner"
+	{
+		"en"	"{yellow}>>> {grey2}Server Owner: {yellow}Levi2288#2382"
+	}
+	
+	"Ts3"
+	{
+		"en"	"{yellow}>>> {grey2}Our TS3 Server: {yellow}233.25.193.169"
+	}
+	
+	"DonatorMenu" // Menu item dont use colors
+	{
+		"en"	"Our server is running from your donations. Thank you guys!\n www.sourcemod.net"
+	}
+}
