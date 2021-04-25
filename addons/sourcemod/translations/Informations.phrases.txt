@@ -20,8 +20,13 @@
 		"en"	"{yellow}>>> {grey2}Our TS3 Server: {yellow}233.25.193.169"
 	}
 	
-	"DonatorMenu" // Menu item dont use colors
+	"DonatorMenu" // Menu Title dont use colors
 	{
 		"en"	"Our server is running from your donations. Thank you guys!\n www.sourcemod.net"
+	}
+	
+	"VipInfoMenu" // Menu Title dont use colors
+	{
+		"en"	"Vip 5$/month"
 	}
 }
