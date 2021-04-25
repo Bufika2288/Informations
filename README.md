@@ -1,6 +1,6 @@
 # Informations
 
-  Displays usefull stuff like: Groups, Owner, Donate informations
+  Displays usefull stuff like: Groups, Owner, Donate, Vip informations
   
   +Translate support
 
