@@ -17,6 +17,9 @@ Handle sm_owner_enable = INVALID_HANDLE;
 Handle sm_ts3_enable = INVALID_HANDLE;
 Handle sm_donate_enable = INVALID_HANDLE;
 Handle sm_vipinfo_enable = INVALID_HANDLE;
+Handle sm_web_enable = INVALID_HANDLE;
+Handle sm_bans_enable = INVALID_HANDLE;
+
 
 #pragma newdecls required
 
@@ -24,7 +27,7 @@ public Plugin myinfo =
 {
 	name = "Informations",
 	author = PLUGIN_AUTHOR,
-	description = "Customazable informations.",
+	description = "Customizable informations.",
 	version = PLUGIN_VERSION,
 	url = "https://github.com/Bufika2288"
 };
@@ -53,7 +56,16 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_vipinfo", BVip);
 	RegConsoleCmd("sm_buy", BVip);
 	RegConsoleCmd("sm_vipi", BVip);
+	RegConsoleCmd("sm_buyvip", BVip);
 	RegConsoleCmd("sm_bvip", BVip);
+	
+	RegConsoleCmd("sm_website", Web);
+	RegConsoleCmd("sm_site", Web);
+	RegConsoleCmd("sm_web", Web);
+	
+	RegConsoleCmd("sm_bans", Bans);
+	RegConsoleCmd("sm_sourcebans", Bans);
+	RegConsoleCmd("sm_banlist", Bans);
 	
 	LoadTranslations("Informations.phrases");
 	LoadTranslations("common.phrases");
@@ -63,6 +75,8 @@ public void OnPluginStart()
 	sm_discord_enable = CreateConVar("sm_discord_enable", "1","Enable discord info");
 	sm_owner_enable = CreateConVar("sm_owner_enable", "1","Enable Owner info ");
 	sm_ts3_enable = CreateConVar("sm_ts3_enable", "1","Enable discord info");
+	sm_web_enable = CreateConVar("sm_web_enable", "1","Enable website info ");
+	sm_bans_enable = CreateConVar("sm_bans_enable", "1","Enable sourcebans info ");
 	sm_donate_enable = CreateConVar("sm_donate_enable", "1","Enable Donate info ");
 	sm_vipinfo_enable = CreateConVar("sm_vipinfo_enable", "1","Enable vip info ");
 	
@@ -112,6 +126,34 @@ public Action Owner(int client, int args)
 		}
 	}
 	
+	return Plugin_Handled;
+}
+//Web
+public Action Web(int client, int args)
+{
+	if (GetConVarBool(sm_web_enable))
+	{
+		if(IsClientInGame(client) && !IsFakeClient(client))
+		{
+			CPrintToChat(client, "%t", "Website");
+	
+		}
+	}
+	
+	return Plugin_Handled;
+}
+//Bans
+public Action Bans(int client, int args)
+{
+	if (GetConVarBool(sm_bans_enable))
+	{
+		if(IsClientInGame(client) && !IsFakeClient(client))
+		{
+			CPrintToChat(client, "%t", "Bans");
+	
+		}
+	}
+
 	return Plugin_Handled;
 }
 

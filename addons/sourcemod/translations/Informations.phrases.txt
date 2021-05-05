@@ -20,9 +20,19 @@
 		"en"	"{yellow}>>> {grey2}Our TS3 Server: {yellow}233.25.193.169"
 	}
 	
+	"Web"
+	{
+		"en"	"{yellow}>>> {grey2}Our Website: {yellow}Yourwebsite"
+	}
+	
+	"Bans"
+	{
+		"en"	"{yellow}>>> {grey2}View & Appeal All Bans / Comm Bans At: {yellow}Yourwebsite/Sourcebans"
+	}
+	
 	"DonatorMenu" // Menu Title dont use colors
 	{
-		"en"	"Our server is running from your donations. Thank you guys!\n www.sourcemod.net"
+		"en"	"Our server is running from your donations. Thank you guys!\n www.Yourwebsite.com"
 	}
 	
 	"VipInfoMenu" // Menu Title dont use colors

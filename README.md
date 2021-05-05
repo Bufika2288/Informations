@@ -34,6 +34,18 @@ Commands:
     sm_ts3
     sm_teamspeak
     sm_ts
+	
+	For Website Link:
+	
+	sm_website
+	sm_site
+	sm_web
+	
+	For Ban list:
+	
+	sm_bans
+	sm_sourcebans
+	sm_banlist
     
     For Vip information:
     
@@ -48,6 +60,8 @@ Cvars:
     sm_discord_enable 
     sm_owner_enable 
     sm_ts3_enable 
+	sm_web_enable
+	sm_bans_enable
     sm_donate_enable
     sm_vipinfo_enable
     sm_informations_version
