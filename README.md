@@ -1,6 +1,6 @@
 # Informations
 
-  Displays usefull stuff like: Groups, Owner, Donate, Vip informations
+  Displays usefull stuff like: Groups, Owner, ts & discord server
   
   +Translate support
 
@@ -16,12 +16,7 @@ Commands:
   
     sm_discord
     sm_dc
-    
-    For donate:
-  
-    sm_donate
-    sm_support
-    sm_don
+   
   
     For owner profile:
   
@@ -46,13 +41,7 @@ Commands:
 	sm_bans
 	sm_sourcebans
 	sm_banlist
-    
-    For Vip information:
-    
-    sm_bvip
-    sm_vipi
-    sm_buy
-    sm_vipinfo
+ 
     
 Cvars:
 
@@ -62,6 +51,4 @@ Cvars:
     sm_ts3_enable 
 	sm_web_enable
 	sm_bans_enable
-    sm_donate_enable
-    sm_vipinfo_enable
     sm_informations_version
